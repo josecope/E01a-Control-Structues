@@ -2,78 +2,78 @@ Open main1.py. Before running it, what do you expect this program to do?
 I expect it to display "greetings" and then have a text box where you can type an answer.
 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+Nothing happened when I typed my response.
 What do you think the program did with what you typed?
-
+I believe that the information was processed, but nothing could be done with it due to the fact that there was no command.
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+There is another line with another print command, and there is a color = command attached to the previous one.
 What do you think the color = input() will do? 
-
+Switch the word so that it matches the color that I type.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+No, the result was the same in that nothing else happened.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+It has more commands such as if and else.  The print commands also hold quotes with them.  Also, some of the lines are indented.
 What is happening on lines 11–14? 
-
+There are commands that allow the program to run in different ways based on the answer typed.
 Why are lines 12 and 14 indented? 
-
+They respond to the statments of if and else, similar to an if/then statement in a math course.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+If you do not capitalize Red, the program counts the answer as wrong.
 What does this tell you about "color"?
-
+It is able to identify the color red, and probably other colors as well.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+It has the same if and else statements as main3.py.  However, it all has an or in one of the print commands.
 What problem is this trying to solve? 
-
+This solves the problem presented by the fact that if Red is not capitalized then it is counted as wrong.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+The answer is counted as wrong.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I believe it will make the answer correct if it is typed in all lowercase letters.
 What problem is it trying to solve? 
-
+It is trying to solve the issue of whether or not Red should be capitalized. 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+The answer is counted as wrong.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+There is a .strip in front of the lower() command.
 What would you guess .strip() is doing? 
-
+I would think that it allows the program to count the answer as right even with spaces.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+If spaces are put between the letters it will be counted wrong.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+If pink is entered, this answer will be counted as close to right.
 What is the purpose of line 11? 
-
+Line 11 makes sure that the answers can be inputted in any logical way.  It follows the rules established im main6.py.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+Line 11 makes the program run so that the indented lines only apply if the correct answer is red.
 Why are lines 12–19 indented? 
-
+These lines are indented so that the commands only activate if the command on line 11 activates.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+THe inputted answer would not follow the rules established in the later lines.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+When I typed the answer nothing happened.
 
 
 Open main9.py. What is happening on line 12? 
-
+Line 12 features the command that is present in most of the main.py files that allows an answer to be inputted in the terminal.
 What is the purpose of “count”? 
-
+"Count" tracks how many attempts someone makes before they guess the right answer.
 What is happening on line 22? 
-
+The program tells the user how many attempts they made until they guessed correctly.
 Run the program.
 
 
@@ -82,3 +82,4 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+No
